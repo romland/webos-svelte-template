@@ -1,0 +1,28 @@
+{
+	"id": "ui30",
+	"version": "0.0.0",
+	"vendor": "JR",
+	"type": "web",
+	"main": "index.html",
+	"title": "WebOS Web App",
+	"icon": "icon.png",
+	"largeIcon": "largeIcon.png",
+	"transparent": true,
+	"visible" : false,
+	"noSplashOnLaunch": true,
+	"enableBackgroundRun": true,
+	"defaultWindowType":"overlay",
+	"requiredPermissions": ["all"], 
+	"spinnerOnLaunch" : false,
+	"checkUpdateOnLaunch" : false,
+	"windowGroup": {
+		"owner":false,
+		"name": "com.webos.app.livetv",
+		"clientInfo" : {
+			"layer": "acrLayer"
+		}
+	},
+	"class": {
+		"hidden":true
+	}
+}

@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'LG_Display-Regular';
+	/* TODO: I only have the ttf */
+	src: url('/LG_Display-Regular.ttf')  format('truetype');
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	font-family: 'LG_Display-Regular';
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #444;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: transparent;
+	}
+}

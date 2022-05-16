@@ -1,0 +1,22 @@
+{
+	"name": "webos-web-app",
+	"author": "JR",
+	"version": "1.0.123456789",
+	"license" : "MIT",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"serve": "vite preview",
+		"build": "vite build && node scripts/postbuild.js && ares-package dist",
+		"deploy": "node scripts/deploy.js oled-livingroom",
+		"prepare": "echo TODO install LG SDK (the ares tools)? Find a TV?",
+		"launch": "echo TODO: launch application on remote TV",
+		"inspect": "echo TODO: Inspect with e.g.: chrome://inspect/#devices && ares-novacom -d oled-livingroom -f -p 9998:9222 && ares-inspect -d oled-livingroom ui30"
+	},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^1.0.0-next.11",
+		"svelte": "^3.37.0",
+		"vite": "^2.6.4",
+		"vite-plugin-singlefile": "^0.5.1"
+	}
+}
