@@ -4,9 +4,9 @@ This template should help get you started developing WebOS TV apps.
 
 This application will show the current time by having it slide in from the right, stay visible for a second or three, then fade out and close the application.
 
-TODO: I _really_ want something in place to get access to all the same luna interfaces as if it was running on a local tv, is that possible with SSAP? What are the differences? How to find out? Is luna-pub _all_ access you get as an app running on the TV?
+TODO: I _really_ want a proxy to all luna interfaces (as if rooted) from a remote host when developing. I have started work on it, but never finished.
 
-TODO: Write more here...
+TODO: Things to write more about here:
 - versioning
 - appinfo.json
 - IPK
