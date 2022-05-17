@@ -4,8 +4,6 @@ This template should help get you started developing WebOS TV apps.
 
 This application will show the current time by having it slide in from the right, stay visible for a second or three, then fade out and close the application.
 
-TODO: I _really_ want a proxy to all luna interfaces (as if rooted) from a remote host when developing. I have started work on it, but never finished.
-
 TODO: Things to write more about here:
 - versioning
 - appinfo.json
@@ -61,3 +59,6 @@ If you have state that's important to retain within a component, consider creati
 import { writable } from 'svelte/store'
 export default writable(0)
 ```
+
+# TODO
+- Slightly out of scope for this project, but I _really_ want a proxy to all luna interfaces (as if rooted) from a remote host when developing. I have started work on it, but never finished.
